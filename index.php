@@ -34,7 +34,7 @@
   $movie2 = new Movie("Ritorno al futuro", 1985, 92);
 
   echo '<ul>';
-    echo '<li>' . $movie1 -> MovieTitle() . " " . $movie1 -> MovieYear() . " " . $movie1 -> MovieDuration() . '</li>';
-    echo '<li>' . $movie2 -> MovieTitle() . " " . $movie2 -> MovieYear() . " " . $movie2 -> MovieDuration() . '</li>';
+    echo '<li> Titolo: ' . $movie1 -> MovieTitle() . " Anno: " . $movie1 -> MovieYear() . " Durata: " . $movie1 -> MovieDuration() . ' Minuti</li>';
+    echo '<li> Titolo: ' . $movie2 -> MovieTitle() . " Anno: " . $movie2 -> MovieYear() . " Durata: " . $movie2 -> MovieDuration() . ' Minuti</li>';
   echo '</ul>';
 ?>
